@@ -98,6 +98,7 @@ p, a{
 .nav-icon{
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
 /*Banner Section*/
@@ -121,7 +122,7 @@ p, a{
     border: none;
     position: absolute;
     background-color: var(--accent-color);
-    opacity: 0.2;
+    opacity: 0.3;
 }
 
 
@@ -157,10 +158,13 @@ button.button-small, .button-wide{
     border-style:solid;
     height: 51px;
     background-color: transparent;
+    cursor: pointer;
+    
+    
 }
 
 button.button-small-black {
-    
+    cursor: pointer;
     text-transform: uppercase;
     color: var(--ff-main-color);
     border:var(--ff-main-color);
@@ -171,8 +175,11 @@ button.button-small-black {
     border-width: thin;
     width: 115px;
     margin-top: 2em;
-    
 }
+button.button-small-black, a{
+    width: 115px;
+}
+
 
 button.button-small{
     width: 115px;
@@ -318,12 +325,14 @@ footer{
     width:50px;
     height:50px;
     margin: 1em 0 1em 1em;
+    cursor: pointer;
 
 }
 
 .footer-instagram{
-  width: auto;
-  height: 40px;
+    width: auto;
+    height: 40px;
     margin: auto 1em auto 0;
+    cursor: pointer;
 
 }

@@ -7,29 +7,55 @@ html,body
     overflow-x: hidden; 
 }
 
-
-.projects-banner-main h1{
-    font-size: 25px ;
-}
-
-
-
-
 .projects-banner-container{
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content: flex-end;
-    
-   
-
-}
-
-.projects-banner-main{
+    position: relative;
     display: flex;
     width: 100%;
-    flex-direction: row;
+    height: 800px;
+    justify-content: center;
+     
     
 }
+
+.projects-banner-container::before{
+    content:'' ;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: none;
+    position:absolute;
+    background-color: var(--accent-color);
+    opacity: 0.4;
+}
+
+.projects-banner-box{
+    display: flex;
+    
+    
+    width: 1000px;
+    height: 800px;
+    position: relative;
+  
+   
+}
+
+
+.projects-banner-box h1{
+    text-align: center;
+    font-size: 40px ;
+    text-transform: uppercase;
+}
+
+.projects-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    max-width: 1000px;
+    
+}
+
 
 .button-small-black-pr{
     text-transform: uppercase;
@@ -37,7 +63,7 @@ html,body
     border:var(--ff-main-color);
     border-radius: 37px;
     border-style:solid;
-    height: 40px;
+    height: 50px;
     background-color: transparent;
     border-width: thik;
     width: 115px;
@@ -50,23 +76,56 @@ button.button-wide-black{
     border-radius: 37px;
     border-style:solid;
     border-width: thik;
-    height: 40px;
+    height: 50px;
     background-color: transparent;
     width: 187.68px;
     margin-left: 1em;
 }
+
+button.button-wide-black2{
+    cursor: pointer;
+    color: var(--ff-main-color);
+    border:var(--ff-main-color);
+    text-transform: uppercase;
+    border-radius: 37px;
+    border-style:solid;
+    border-width: thik;
+    height: 50px;
+    background-color: transparent;
+    width: 100%; 
+   
+}
+
+.article-container-parent{
+    display: flex;
+    width: 100%;
+    
+    position: relative;
+
+}
+
+.pr-box-left{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+}
  .water-image{
-     height:800px;
-     width: 400px;
+     position: relative;
+     height: auto;
+     width: 800px;
  }
 
+
+
 .pr-box{  
+    text-align: center;
     margin-top: 2em;
    
 }
 
 .pr-box span{
-    font-size: 10px;
+    font-size: 0.825em;
     font-weight: bold;
 }
 
@@ -76,10 +135,76 @@ button.button-wide-black{
 
 }
 
-.projects-text{
+.article-container-pr{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    max-width: 1000px;
+}
+
+.article-container-pr2{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto 10em auto;
+    max-width: 1000px;
+}
+
+.article-text-container-pr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+.article-text-container-pr2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 5em;
-    max-width: 600px;
+    align-items: center;
+   
+    
 }
+.article-text-container-pr2 h2 {
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    
+}
+
+.article-text-container-pr2 p {
+    position: relative;
+    margin-top: 1em;
+    font-size: 1.0em;
+    line-height: 1.8em;
+    
+}
+
+.article-text-container-pr h2 {
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    
+}
+
+.article-text-container-pr p {
+    position: relative;
+    margin-top: 1em;
+    font-size: 1.0em;
+    line-height: 1.8em;
+    
+}
+
+.button-join{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    width: 100%;
+    
+}
+.article-people-container-pr{
+    display: flex;
+    justify-content: center; 
+    margin: 20em 0 15em 0;
+    
+}
+.
