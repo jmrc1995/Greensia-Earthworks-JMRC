@@ -1,0 +1,27 @@
+{
+  "name": "greensia-earthworks-jmrc",
+  "version": "1.0.0",
+  "description": "Greensia Earthworks Sustainable Living",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmrc1995/Greensia-Earthworks-JMRC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmrc1995/Greensia-Earthworks-JMRC/issues"
+  },
+  "homepage": "https://github.com/jmrc1995/Greensia-Earthworks-JMRC#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "stripe": "^8.154.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
